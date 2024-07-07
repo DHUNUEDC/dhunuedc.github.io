@@ -31,7 +31,7 @@
             <ul class="layui-nav" lay-filter="">
                 <li class="layui-nav-item"><a href="./#About">关于活动</a></li>
                 <li class="layui-nav-item"><a href="./#Process">活动流程</a></li>
-                <li class="layui-nav-item"><a href="./#Sponsors">报名&预约</a></li>
+                <li class="layui-nav-item"><a href="./#Application">报名&预约</a></li>
                 <li class="layui-nav-item"><a href="./#Download">文档下载</a></li>
                 <li class="layui-nav-item"><a href="./#ContactUs">联系我们</a></li>
             </ul>
@@ -504,7 +504,7 @@
                 </div>
             </div>
         </div>
-        <span id="Sponsors" class="anchor"></span>
+        <span id="Application" class="anchor"></span>
         <div class="block" style="background-image: url(./images/bg03.png);">
             <div class="layui-container">
                 <div class="index_title" data-animation="fadeInUp">
@@ -962,8 +962,8 @@
                         nav_cur_idx = 4;
                     }
                 }
-                else if (scroll_top >= $('#Sponsors').offset().top - 200) {
-                    var $item = $('.layui-nav .layui-nav-item a[href="./#Sponsors"]');
+                else if (scroll_top >= $('#Application').offset().top - 200) {
+                    var $item = $('.layui-nav .layui-nav-item a[href="./#Application"]');
                     if (!$item.closest('.layui-nav-item').hasClass('layui-this')) {
                         $('.layui-nav .layui-nav-item').removeClass('layui-this');
                         $item.closest('.layui-nav-item').addClass('layui-this');
